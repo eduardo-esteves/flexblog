@@ -1,0 +1,83 @@
+/* CSS Reset */
+
+/* Box sizing rules */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Remove default margin */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, figure, dl, dd {
+    margin: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+    padding: 0;
+    list-style: none;
+}
+
+/* Remove default padding */
+figure, p {
+    padding: 0;
+}
+
+/* Remove default quote styling */
+blockquote, q {
+    quotes: none;
+}
+
+/* Reset blockquote margin */
+blockquote {
+    margin: 0;
+}
+
+/* Reset link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Ensure img max-width is set to 100% */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Reset table defaults */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove button default styles */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Remove input default styles */
+input {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+/* Remove textarea default styles */
+textarea {
+    border: none;
+    background: none;
+    padding: 0;
+}
