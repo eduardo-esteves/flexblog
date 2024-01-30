@@ -1,11 +1,41 @@
 body {
 	font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 	color: #222222;
 }
 
+.superinfo-bg {
+    background: #122ab2;
+    color: white;
+}
+
+.superinfo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .625rem 15px 0;
+}
+
+.basis-300 {
+    flex: 1 0 320px;
+}
+
+p.basis-300, a.basis-300 {
+    margin-bottom: .625rem;
+}
+
 @media (min-width: 768px) {
+
 	.container {
         max-width: 75%;
         margin: 0 auto;
     }
+
+    .superinfo .basis-300 {
+        flex: 0 1 auto;
+    }
+
+    .superinfo.spc-btw {
+        justify-content: space-between;
+    }
+
 }
