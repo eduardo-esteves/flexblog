@@ -15,12 +15,12 @@ body {
     padding: .625rem 15px 0;
 }
 
-.basis-300 {
-    flex: 1 0 320px;
+.superinfo.spc-btw {
+    justify-content: space-between;
 }
 
-p.basis-300, a.basis-300 {
-    margin-bottom: .625rem;
+.superinfo > p, .superinfo > a {
+    margin-bottom: .425rem;
 }
 
 @media (min-width: 768px) {
@@ -28,14 +28,6 @@ p.basis-300, a.basis-300 {
 	.container {
         max-width: 75%;
         margin: 0 auto;
-    }
-
-    .superinfo .basis-300 {
-        flex: 0 1 auto;
-    }
-
-    .superinfo.spc-btw {
-        justify-content: space-between;
     }
 
 }
