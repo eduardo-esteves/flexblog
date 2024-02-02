@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-    max-width: 80%;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -41,11 +40,7 @@ body {
     color: white;
 }
 
-header.menu-bg {
-    margin-bottom: 2.5rem;
-}
-
-.menu-bg h2 {
+h2 {
     font-size: 2.2rem;
 }
 
@@ -72,9 +67,30 @@ ul.menu li {
 h1.home-title {
     font-size: 2.7rem;
     line-height: 1;
-    padding-bottom: 4rem;
     border-bottom: 2px solid #2c70ff;
 }
+
+/* Init About Section */
+
+.main-content {
+    flex-wrap: wrap;
+}
+
+.main-content p, .main-content img {
+    margin-bottom: 1rem;
+}
+
+.main-content .about, .main-content img {
+    margin-right: 1.5rem;
+}
+
+.main-content img {
+    flex: 0 1 auto;
+    align-self: flex-start;
+}
+
+
+/* End About Section */
 
 @media (min-width: 768px) {
 
@@ -83,4 +99,25 @@ h1.home-title {
         margin: 0 auto;
     }
 
+    .about {
+        flex: 1 1 320px;
+    }
+
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.pb-4 {
+    padding-bottom: 4rem;
+}
+
+.ptb-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
