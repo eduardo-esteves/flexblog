@@ -14,6 +14,32 @@ body {
     padding-right: 15px;
 }
 
+.pt-4 {
+    padding-top: 4rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.pb-4 {
+    padding-bottom: 4rem;
+}
+
+.ptb-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+hr.separator {
+    margin: 4rem 0;
+    border-top: 2px solid #2c70ff;
+}
+
 .superinfo-bg {
     background: #122ab2;
     color: white;
@@ -92,6 +118,45 @@ h1.home-title {
 
 /* End About Section */
 
+
+/* Init Products Section */
+
+div#wrapperProducts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.img-products {
+    flex: 1 1 150px;
+    align-self: flex-end;
+    margin-right: 15px;
+}
+
+div.img-products h2 {
+    color: #7c7c7c;
+    background-color: #e8e8e8;
+}
+
+.img-products h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.border-pupple {
+    border-top: 10px solid #ae81ff;
+}
+
+.border-red {
+    border-top: 10px solid #f9265e;
+}
+
+.border-blue {
+    border-top: 10px solid #66d9eb;
+}
+
+/* End Products Section */
+
+
 @media (min-width: 768px) {
 
 	.container {
@@ -103,21 +168,4 @@ h1.home-title {
         flex: 1 1 320px;
     }
 
-}
-
-.mb-2 {
-    margin-bottom: 2rem;
-}
-
-.mb-4 {
-    margin-bottom: 4rem;
-}
-
-.pb-4 {
-    padding-bottom: 4rem;
-}
-
-.ptb-4 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
 }
